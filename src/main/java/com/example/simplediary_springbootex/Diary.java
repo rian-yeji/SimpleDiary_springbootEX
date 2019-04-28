@@ -7,7 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-//Model class
 //Lombok을 사용하여 코드 간결화(클래스/필드 단위)
 
 @Entity
