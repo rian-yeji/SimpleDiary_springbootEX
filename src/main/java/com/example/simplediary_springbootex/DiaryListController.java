@@ -36,6 +36,7 @@ public class DiaryListController {
         diaryListRepository.save(diary);
         return "redirect:/";
     }
+
     /*@GetMapping(value = "/",produces = MediaType.APPLICATION_JSON_VALUE)
     public String usersDiarys(Model model){
         //List<Diary> diaryList = diaryListRepository.findByUser(user);
