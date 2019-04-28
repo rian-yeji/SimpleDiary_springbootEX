@@ -25,7 +25,6 @@ public class Diary {
     private String title;
     private String content;
 
-
     public void setUser(String user) {
         this.user = user;
     }
